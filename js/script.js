@@ -222,8 +222,8 @@ window.addEventListener('DOMContentLoaded', function()
                 }
             }
         });
-           
-       // Calc 
+         
+       // Calculator
        let persons = document.querySelectorAll('.counter-block-input')[0],
            restDays = document.querySelectorAll('.counter-block-input')[1],
            place = document.getElementById('select'),
@@ -269,6 +269,8 @@ window.addEventListener('DOMContentLoaded', function()
                }
            });
 
+           console.log('Hello world!');
+           console.log('new feature');
 
 
 });
